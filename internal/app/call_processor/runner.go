@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/VoroniakPavlo/call_audit/model"
+	"github.com/webitel/call_audit/model"
 
 	openai "github.com/openai/openai-go"
 	"github.com/openai/openai-go/option"

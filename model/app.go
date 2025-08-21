@@ -3,8 +3,8 @@ package model
 import (
 	"context"
 
-	"github.com/VoroniakPavlo/call_audit/auth"
-	"github.com/VoroniakPavlo/call_audit/internal/server/interceptor"
+	"github.com/webitel/call_audit/auth"
+	"github.com/webitel/call_audit/internal/server/interceptor"
 )
 
 const (

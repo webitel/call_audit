@@ -5,13 +5,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/VoroniakPavlo/call_audit/auth"
-	"github.com/VoroniakPavlo/call_audit/model"
-	"github.com/VoroniakPavlo/call_audit/model/options"
-	"github.com/VoroniakPavlo/call_audit/model/options/grpc/shared"
-	util2 "github.com/VoroniakPavlo/call_audit/model/options/grpc/util"
-	"github.com/VoroniakPavlo/call_audit/util"
-
+	"github.com/webitel/call_audit/auth"
+	"github.com/webitel/call_audit/model"
+	"github.com/webitel/call_audit/model/options"
+	"github.com/webitel/call_audit/model/options/grpc/shared"
+	util2 "github.com/webitel/call_audit/model/options/grpc/util"
+	"github.com/webitel/call_audit/util"
 )
 
 type UpdateOption func(*UpdateOptions) error
@@ -48,7 +47,6 @@ func WithUpdateMasker(m UpdateMasker) UpdateOption {
 		return nil
 	}
 }
-
 
 func WithUpdateParentID(parentID int64) UpdateOption {
 	return func(o *UpdateOptions) error {
@@ -95,7 +93,7 @@ func (s *UpdateOptions) SetDerivedSearchOpts(opts map[string]*options.SearchOpti
 	s.DerivedSearchOpts = opts
 	return s
 }
-func (s *UpdateOptions) GetMask() []string     { return s.Mask }
+func (s *UpdateOptions) GetMask() []string      { return s.Mask }
 func (s *UpdateOptions) RequestTime() time.Time { return s.Time }
 
 func NewUpdateOptions(ctx context.Context, opts ...UpdateOption) (*UpdateOptions, error) {

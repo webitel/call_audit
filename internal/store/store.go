@@ -3,8 +3,8 @@ package store
 import (
 	"context"
 
-	_go "github.com/VoroniakPavlo/call_audit/api/call_audit"
-	dberr "github.com/VoroniakPavlo/call_audit/internal/errors"
+	_go "github.com/webitel/call_audit/api/call_audit"
+	dberr "github.com/webitel/call_audit/internal/errors"
 )
 
 type Store interface {

@@ -6,8 +6,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	conf "github.com/VoroniakPavlo/call_audit/config"
-	"github.com/VoroniakPavlo/call_audit/internal/app"
+	conf "github.com/webitel/call_audit/config"
+	"github.com/webitel/call_audit/internal/app"
 )
 
 func Run() {

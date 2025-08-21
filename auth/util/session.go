@@ -1,8 +1,8 @@
 package auth_util
 
 import (
-	"github.com/VoroniakPavlo/call_audit/auth"
-	"github.com/VoroniakPavlo/call_audit/auth/session/user_session"
+	"github.com/webitel/call_audit/auth"
+	"github.com/webitel/call_audit/auth/session/user_session"
 )
 
 func CloneWithUserID(src auth.Auther, overrideUserID int64) auth.Auther {

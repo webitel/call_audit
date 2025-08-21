@@ -8,9 +8,9 @@ import (
 	"time"
 
 	consulapi "github.com/hashicorp/consul/api"
-	conf "github.com/VoroniakPavlo/call_audit/config"
-	cerror "github.com/VoroniakPavlo/call_audit/internal/errors"
-	"github.com/VoroniakPavlo/call_audit/registry"
+	conf "github.com/webitel/call_audit/config"
+	cerror "github.com/webitel/call_audit/internal/errors"
+	"github.com/webitel/call_audit/registry"
 )
 
 type ConsulRegistry struct {

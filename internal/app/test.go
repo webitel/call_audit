@@ -8,8 +8,8 @@ import (
 	"math/rand"
 	"time"
 
-	processor "github.com/VoroniakPavlo/call_audit/internal/app/call_processor"
-	"github.com/VoroniakPavlo/call_audit/model"
+	processor "github.com/webitel/call_audit/internal/app/call_processor"
+	"github.com/webitel/call_audit/model"
 	"github.com/webitel/storage/pool"
 
 	"net/http"

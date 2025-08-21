@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package call_audit;
 
-option go_package = "github.com/VoroniakPavlo/call_audit/api/call_audit;call_audit";
+option go_package = "github.com/webitel/call_audit/api/call_audit;call_audit";
 
 
 import "google/protobuf/timestamp.proto";

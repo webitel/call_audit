@@ -3,12 +3,12 @@ package server
 import (
 	"net"
 
-	"github.com/VoroniakPavlo/call_audit/auth"
-	conf "github.com/VoroniakPavlo/call_audit/config"
-	grpcerr "github.com/VoroniakPavlo/call_audit/internal/errors"
-	"github.com/VoroniakPavlo/call_audit/internal/server/interceptor"
-	"github.com/VoroniakPavlo/call_audit/registry"
-	"github.com/VoroniakPavlo/call_audit/registry/consul"
+	"github.com/webitel/call_audit/auth"
+	conf "github.com/webitel/call_audit/config"
+	grpcerr "github.com/webitel/call_audit/internal/errors"
+	"github.com/webitel/call_audit/internal/server/interceptor"
+	"github.com/webitel/call_audit/registry"
+	"github.com/webitel/call_audit/registry/consul"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )

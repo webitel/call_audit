@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/VoroniakPavlo/call_audit/auth"
-	"github.com/VoroniakPavlo/call_audit/auth/manager/webitel_app"
-	"github.com/VoroniakPavlo/call_audit/internal/errors"
+	"github.com/webitel/call_audit/auth"
+	"github.com/webitel/call_audit/auth/manager/webitel_app"
+	"github.com/webitel/call_audit/internal/errors"
 
-	conf "github.com/VoroniakPavlo/call_audit/config"
-	cerror "github.com/VoroniakPavlo/call_audit/internal/errors"
-	"github.com/VoroniakPavlo/call_audit/internal/server"
-	"github.com/VoroniakPavlo/call_audit/internal/store"
-	"github.com/VoroniakPavlo/call_audit/internal/store/postgres"
+	conf "github.com/webitel/call_audit/config"
+	cerror "github.com/webitel/call_audit/internal/errors"
+	"github.com/webitel/call_audit/internal/server"
+	"github.com/webitel/call_audit/internal/store"
+	"github.com/webitel/call_audit/internal/store/postgres"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

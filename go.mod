@@ -1,4 +1,4 @@
-module github.com/VoroniakPavlo/call_audit
+module github.com/webitel/call_audit
 
 go 1.24.1
 

@@ -3,9 +3,9 @@ package app
 
 import (
 	"context"
-	"github.com/VoroniakPavlo/call_audit/api/cases"
-	errors "github.com/VoroniakPavlo/call_audit/internal/error"
-	"github.com/VoroniakPavlo/call_audit/model"
+	"github.com/webitel/call_audit/api/cases"
+	errors "github.com/webitel/call_audit/internal/error"
+	"github.com/webitel/call_audit/model"
 	"github.com/webitel/webitel-go-kit/etag"
 )
 

@@ -4,9 +4,9 @@ import (
 	"context"
 	"log/slog"
 
-	conf "github.com/VoroniakPavlo/call_audit/config"
-	dberr "github.com/VoroniakPavlo/call_audit/internal/errors"
-	"github.com/VoroniakPavlo/call_audit/internal/store"
+	conf "github.com/webitel/call_audit/config"
+	dberr "github.com/webitel/call_audit/internal/errors"
+	"github.com/webitel/call_audit/internal/store"
 
 	"github.com/jackc/pgx/v5/pgxpool"
 )
@@ -17,9 +17,9 @@ type Store struct {
 	languageProfilesStore      store.LanguageProfileStore
 	callQuestionnaireRuleStore store.CallQuestionnaireRuleStore
 
-	serviceStore                 store.ServiceStore
-	config                      *conf.DatabaseConfig
-	conn                        *pgxpool.Pool
+	serviceStore store.ServiceStore
+	config       *conf.DatabaseConfig
+	conn         *pgxpool.Pool
 }
 
 func New(config *conf.DatabaseConfig) *Store {

@@ -5,10 +5,10 @@ import (
 	"fmt"
 
 	sq "github.com/Masterminds/squirrel"
-	cr "github.com/VoroniakPavlo/call_audit/api/call_audit"
-	dberr "github.com/VoroniakPavlo/call_audit/internal/errors"
-	"github.com/VoroniakPavlo/call_audit/internal/store/util"
-	options "github.com/VoroniakPavlo/call_audit/model/options"
+	cr "github.com/webitel/call_audit/api/call_audit"
+	dberr "github.com/webitel/call_audit/internal/errors"
+	"github.com/webitel/call_audit/internal/store/util"
+	options "github.com/webitel/call_audit/model/options"
 )
 
 type QuestionnaireRuleScan func(rule *cr.CallQuestionnaireRule) any

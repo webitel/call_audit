@@ -4,8 +4,8 @@ managed:
   enabled: true
   override:
     - file_option: go_package_prefix
-      value: github.com/VoroniakPavlo/call_audit/api
-      module: buf.build/VoroniakPavlo/call_audit
+      value: github.com/webitel/call_audit/api
+      module: buf.build/webitel/call_audit
 
 plugins:
   - remote: buf.build/protocolbuffers/go

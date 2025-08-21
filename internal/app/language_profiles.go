@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	pb "github.com/VoroniakPavlo/call_audit/api/call_audit"
+	pb "github.com/webitel/call_audit/api/call_audit"
 )
 
 type LanguageProfilesService struct {

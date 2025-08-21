@@ -15,8 +15,8 @@
         "console": "integratedTerminal",
         "args": [
             "--id=pasha_ccc_1",
-              "--data_source=postgres://opensips:webitel@10.9.8.111:5432/webitel?sslmode=disable&connect_timeout=10",
-              "--amqp=amqp://webitel:webitel@10.9.8.111:5672?heartbeat=10",
+              "--data_source=postgres://username:password@10.9.8.111:5432/webitel?sslmode=disable&connect_timeout=10",
+              "--amqp=amqp://username:password@10.9.8.111:5672?heartbeat=10",
               "--consul=10.9.8.111:8500",
               "--grpc_addr=10.10.10.87:50051",
               "server"

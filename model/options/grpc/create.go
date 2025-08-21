@@ -5,11 +5,11 @@ import (
 	"errors"
 	"time"
 
-	"github.com/VoroniakPavlo/call_audit/auth"
-	"github.com/VoroniakPavlo/call_audit/model"
-	"github.com/VoroniakPavlo/call_audit/model/options"
-	"github.com/VoroniakPavlo/call_audit/model/options/grpc/shared"
-	"github.com/VoroniakPavlo/call_audit/util"
+	"github.com/webitel/call_audit/auth"
+	"github.com/webitel/call_audit/model"
+	"github.com/webitel/call_audit/model/options"
+	"github.com/webitel/call_audit/model/options/grpc/shared"
+	"github.com/webitel/call_audit/util"
 )
 
 type CreateOption func(*CreateOptions) error

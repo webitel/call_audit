@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/jackc/pgtype"
-	_go "github.com/VoroniakPavlo/call_audit/api/call_audit"
+	_go "github.com/webitel/call_audit/api/call_audit"
 )
 
 type ScanFunc func(src any) error
@@ -210,8 +210,6 @@ func ScanRowExtendedLookup(value **_go.ExtendedLookup) any {
 		return nil
 	})
 }
-
-
 
 func ScanLookupList(value *[]*_go.Lookup) any {
 	return TextDecoder(func(src []byte) error {

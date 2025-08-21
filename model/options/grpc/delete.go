@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/VoroniakPavlo/call_audit/auth"
-	"github.com/VoroniakPavlo/call_audit/model"
+	"github.com/webitel/call_audit/auth"
+	"github.com/webitel/call_audit/model"
 )
 
 type DeleteOptions struct {

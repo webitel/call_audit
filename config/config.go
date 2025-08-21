@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	cerr "github.com/VoroniakPavlo/call_audit/internal/errors"
+	cerr "github.com/webitel/call_audit/internal/errors"
 )
 
 type AppConfig struct {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/VoroniakPavlo/call_audit/auth"
+	"github.com/webitel/call_audit/auth"
 )
 
 type SearchOptions interface {

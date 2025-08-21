@@ -3,7 +3,7 @@ package app
 import (
 	"log"
 
-	ca "github.com/VoroniakPavlo/call_audit/api/call_audit"
+	ca "github.com/webitel/call_audit/api/call_audit"
 	"google.golang.org/grpc"
 )
 

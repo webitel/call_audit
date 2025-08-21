@@ -2,7 +2,8 @@ package processor
 
 import (
 	"log/slog"
-	"github.com/VoroniakPavlo/call_audit/model"
+
+	"github.com/webitel/call_audit/model"
 )
 
 type App struct {
@@ -30,7 +31,7 @@ func (a *App) Process(job *model.CallJob) map[string]any {
 	if !a.State.TryAdd(job.Params.CallID) {
 		slog.Warn("Call ID is already being processed", slog.String("call_id", job.Params.CallID))
 		return map[string]any{
-			"status":   "already_processing",
+			"status":  "already_processing",
 			"call_id": job.Params.CallID,
 		}
 	}
@@ -41,12 +42,12 @@ func (a *App) Process(job *model.CallJob) map[string]any {
 			slog.Error("Failed to process Call ID", slog.String("call_id", job.Params.CallID), slog.String("error", err.Error()))
 		}
 		a.State.Remove(job.Params.CallID)
-		
+
 		slog.Info("Finished processing Call ID", slog.String("call_id", job.Params.CallID))
 	}()
 
 	return map[string]any{
-		"status": "accepted",
+		"status":  "accepted",
 		"call_id": job.Params.CallID,
 	}
 }

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/VoroniakPavlo/call_audit/auth"
+	"github.com/webitel/call_audit/auth"
 )
 
 func TestUserAuthSession_CheckLicenseAccess(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	grpcopts "github.com/VoroniakPavlo/call_audit/model/options/grpc"
+	grpcopts "github.com/webitel/call_audit/model/options/grpc"
 
 	"github.com/Masterminds/squirrel"
 )

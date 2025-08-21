@@ -7,12 +7,13 @@
 package call_audit
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
+
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
+	timestamppb "google.golang.org/protobuf/types/known/timestamppb"
 )
 
 const (
@@ -524,7 +525,7 @@ const file_call_audit_language_profiles_proto_rawDesc = "" +
 	"\x06Create\x12(.call_audit.CreateLanguageProfileRequest\x1a\x1b.call_audit.LanguageProfile\x12O\n" +
 	"\x06Update\x12(.call_audit.UpdateLanguageProfileRequest\x1a\x1b.call_audit.LanguageProfile\x12O\n" +
 	"\x06Delete\x12(.call_audit.DeleteLanguageProfileRequest\x1a\x1b.call_audit.LanguageProfileB\x9f\x01\n" +
-	"\x0ecom.call_auditB\x15LanguageProfilesProtoP\x01Z2github.com/VoroniakPavlo/call_audit/api/call_audit\xa2\x02\x03CXX\xaa\x02\tCallAudit\xca\x02\tCallAudit\xe2\x02\x15CallAudit\\GPBMetadata\xea\x02\tCallAuditb\x06proto3"
+	"\x0ecom.call_auditB\x15LanguageProfilesProtoP\x01Z2github.com/webitel/call_audit/api/call_audit\xa2\x02\x03CXX\xaa\x02\tCallAudit\xca\x02\tCallAudit\xe2\x02\x15CallAudit\\GPBMetadata\xea\x02\tCallAuditb\x06proto3"
 
 var (
 	file_call_audit_language_profiles_proto_rawDescOnce sync.Once

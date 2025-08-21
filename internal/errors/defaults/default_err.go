@@ -1,6 +1,6 @@
 package errors
 
-import "github.com/VoroniakPavlo/call_audit/internal/errors"
+import "github.com/webitel/call_audit/internal/errors"
 
 var (
 	DatabaseError = errors.NewInternalError(

@@ -7,9 +7,9 @@ import (
 
 	authclient "buf.build/gen/go/webitel/webitel-go/grpc/go/_gogrpc"
 	authmodel "buf.build/gen/go/webitel/webitel-go/protocolbuffers/go"
-	"github.com/VoroniakPavlo/call_audit/auth"
-	session "github.com/VoroniakPavlo/call_audit/auth/session/user_session"
-	autherror "github.com/VoroniakPavlo/call_audit/internal/errors"
+	"github.com/webitel/call_audit/auth"
+	session "github.com/webitel/call_audit/auth/session/user_session"
+	autherror "github.com/webitel/call_audit/internal/errors"
 	"golang.org/x/sync/singleflight"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

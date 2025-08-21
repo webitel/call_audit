@@ -8,11 +8,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/VoroniakPavlo/call_audit/auth"
+	"github.com/webitel/call_audit/auth"
 	"go.opentelemetry.io/otel/trace"
 
-	api "github.com/VoroniakPavlo/call_audit/api"
-	cerror "github.com/VoroniakPavlo/call_audit/internal/errors"
+	api "github.com/webitel/call_audit/api"
+	cerror "github.com/webitel/call_audit/internal/errors"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"

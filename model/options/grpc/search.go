@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/VoroniakPavlo/call_audit/auth"
-	"github.com/VoroniakPavlo/call_audit/model"
-	"github.com/VoroniakPavlo/call_audit/model/options/defaults"
-	"github.com/VoroniakPavlo/call_audit/model/options/grpc/shared"
-	"github.com/VoroniakPavlo/call_audit/util"
+	"github.com/webitel/call_audit/auth"
+	"github.com/webitel/call_audit/model"
+	"github.com/webitel/call_audit/model/options/defaults"
+	"github.com/webitel/call_audit/model/options/grpc/shared"
+	"github.com/webitel/call_audit/util"
 )
 
 type SearchOption func(options *SearchOptions) error
@@ -115,7 +115,6 @@ func WithSort(sorter Sorter) SearchOption {
 		return nil
 	}
 }
-
 
 type SearchOptions struct {
 	createdAt time.Time

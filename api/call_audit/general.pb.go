@@ -7,11 +7,12 @@
 package call_audit
 
 import (
-	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
-	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
 	sync "sync"
 	unsafe "unsafe"
+
+	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
+	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
 
 const (
@@ -146,7 +147,7 @@ const file_call_audit_general_proto_rawDesc = "" +
 	"\x02id\x18\x01 \x01(\x03R\x02id\x12\x12\n" +
 	"\x04name\x18\x02 \x01(\tR\x04name\x12\x12\n" +
 	"\x04type\x18\x03 \x01(\tR\x04typeB\x96\x01\n" +
-	"\x0ecom.call_auditB\fGeneralProtoP\x01Z2github.com/VoroniakPavlo/call_audit/api/call_audit\xa2\x02\x03CXX\xaa\x02\tCallAudit\xca\x02\tCallAudit\xe2\x02\x15CallAudit\\GPBMetadata\xea\x02\tCallAuditb\x06proto3"
+	"\x0ecom.call_auditB\fGeneralProtoP\x01Z2github.com/webitel/call_audit/api/call_audit\xa2\x02\x03CXX\xaa\x02\tCallAudit\xca\x02\tCallAudit\xe2\x02\x15CallAudit\\GPBMetadata\xea\x02\tCallAuditb\x06proto3"
 
 var (
 	file_call_audit_general_proto_rawDescOnce sync.Once

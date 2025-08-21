@@ -1,0 +1,70 @@
+syntax = "proto3";
+
+package call_audit;
+
+option go_package = "github.com/VoroniakPavlo/call_audit/api/call_audit;call_audit";
+
+
+import "google/protobuf/timestamp.proto";
+
+// === MODEL ===
+
+message LanguageProfile {
+  int32 id = 1 ;
+  int32 domain_id = 2 ;
+  google.protobuf.Timestamp created_at = 3;
+  int64 created_by = 4 ;
+  google.protobuf.Timestamp updated_at = 5;
+  int64 updated_by = 6 ;
+  string name = 7 ;
+  string token = 8;
+  int32 type = 9 ;
+}
+
+// === REQUESTS ===
+
+message GetLanguageProfileRequest {
+  int32 id = 1 ;
+}
+
+message ListLanguageProfilesRequest {
+  int32 domain_id = 1 ;
+  int32 limit = 2 ;
+  int32 offset = 3 ;
+}
+
+message CreateLanguageProfileRequest {
+  int32 domain_id = 1 ;
+  int64 created_by = 2 ;
+  string name = 3 ;
+  string token = 4;
+  int32 type = 5 ;
+}
+
+message UpdateLanguageProfileRequest {
+  int32 id = 1 ;
+  int64 updated_by = 2 ;
+  string name = 3 ;
+  string token = 4;
+  int32 type = 5 ;
+}
+
+message DeleteLanguageProfileRequest {
+  int32 id = 1 ;
+}
+
+// === RESPONSES ===
+
+message ListLanguageProfilesResponse {
+  repeated LanguageProfile profiles = 1;
+}
+
+// === SERVICE ===
+
+service LanguageProfileService {
+  rpc Get(GetLanguageProfileRequest) returns (LanguageProfile);
+  rpc List(ListLanguageProfilesRequest) returns (ListLanguageProfilesResponse);
+  rpc Create(CreateLanguageProfileRequest) returns (LanguageProfile);
+  rpc Update(UpdateLanguageProfileRequest) returns (LanguageProfile);
+  rpc Delete(DeleteLanguageProfileRequest) returns (LanguageProfile);
+}

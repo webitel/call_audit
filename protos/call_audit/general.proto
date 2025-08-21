@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package call_audit;
+
+option go_package = "github.com/VoroniakPavlo/call_audit/api/call_audit;call_audit";
+
+message Lookup {
+  int64 id = 1;
+  string name = 2;
+}
+
+
+message ExtendedLookup {
+  int64 id = 1;
+  string name = 2;
+  string type = 3;
+}

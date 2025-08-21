@@ -1,0 +1,66 @@
+syntax = "proto3";
+
+package call_audit;
+
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/wrappers.proto";
+import "call_audit/general.proto";
+
+option go_package = "github.com/VoroniakPavlo/call_audit/api/call_audit;call_audit";
+
+// Message: CallQuestionnaireRule
+message CallQuestionnaireRule {
+  int32 id = 1;
+  int64 domain_id = 2;
+  google.protobuf.Timestamp created_at = 3;
+  Lookup created_by = 4;
+  google.protobuf.Timestamp updated_at = 5;
+  Lookup updated_by = 6;
+  string name = 7;
+  Lookup language_profile = 8;
+  string description = 9;
+  bool enabled = 10;
+  Lookup cognitive_profile = 11;
+  google.protobuf.Timestamp from = 12;
+  google.protobuf.Timestamp to = 13;
+  string call_direction = 14;
+  int32 min_call_duration = 15;
+  string variable = 16;
+  string default_promt = 17;
+  bool save_explanation = 18;
+  google.protobuf.Timestamp last_stored_at = 19;
+}
+
+// Message: CallQuestionnaireRuleList
+message CallQuestionnaireRuleList {
+  repeated CallQuestionnaireRule items = 1;
+  int32 page = 2;
+  bool next = 3;
+}
+
+// Message: GetByIdRequest
+message GetCallQuestionnaireRuleRequest {
+  int32 id = 1;
+}
+
+// Message: DeleteByIdRequest
+message DeleteCallQuestionnaireRuleRequest {
+  int32 id = 1;
+}
+
+// Message: Create/Update Request
+message UpsertCallQuestionnaireRuleRequest {
+  CallQuestionnaireRule rule = 1;
+}
+
+// Message: Empty
+message Empty {}
+
+// Service definition
+service CallQuestionnaireRuleService {
+  rpc Get(GetCallQuestionnaireRuleRequest) returns (CallQuestionnaireRule);
+  rpc List(Empty) returns (CallQuestionnaireRuleList);
+  rpc Create(UpsertCallQuestionnaireRuleRequest) returns (CallQuestionnaireRule);
+  rpc Update(UpsertCallQuestionnaireRuleRequest) returns (CallQuestionnaireRule);
+  rpc Delete(DeleteCallQuestionnaireRuleRequest) returns (CallQuestionnaireRule);
+}

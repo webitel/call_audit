@@ -6,7 +6,7 @@ require (
 	buf.build/gen/go/webitel/webitel-go/protocolbuffers/go v1.36.10-20251020082842-dd1e0cbd8b5a.1
 	github.com/Masterminds/squirrel v1.5.4
 	github.com/jackc/pgtype v1.14.4
-	github.com/jackc/pgx/v5 v5.7.5
+	github.com/jackc/pgx/v5 v5.7.6
 	github.com/jmoiron/sqlx v1.4.0
 	github.com/pkg/errors v0.9.1
 	github.com/webitel/storage v0.0.0-20250721055202-b28f9f19ed2a

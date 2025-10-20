@@ -5,7 +5,7 @@ go 1.24.1
 toolchain go1.24.5
 
 require (
-	buf.build/gen/go/webitel/webitel-go/protocolbuffers/go v1.36.1-20250609124843-105d56479f4e.1
+	buf.build/gen/go/webitel/webitel-go/protocolbuffers/go v1.36.10-20251020082842-dd1e0cbd8b5a.1
 	github.com/Masterminds/squirrel v1.5.4
 	github.com/jackc/pgtype v1.14.4
 	github.com/jackc/pgx/v5 v5.7.5
@@ -15,7 +15,7 @@ require (
 	go.opentelemetry.io/otel/sdk v1.36.0
 	golang.org/x/sync v0.15.0
 	google.golang.org/grpc v1.72.2
-	google.golang.org/protobuf v1.36.6
+	google.golang.org/protobuf v1.36.10
 )
 
 require (

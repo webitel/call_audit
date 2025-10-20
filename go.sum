@@ -1,7 +1,7 @@
 buf.build/gen/go/webitel/webitel-go/grpc/go v1.5.1-20250609124843-105d56479f4e.2 h1:UakzlcgjYfzehUGqjB4FDdctxzRXQLlWiLdP4F0beWM=
 buf.build/gen/go/webitel/webitel-go/grpc/go v1.5.1-20250609124843-105d56479f4e.2/go.mod h1:J1r49v7CokIClDqrBe+HVMNAzu3uBw4BaLlVhlTqKNw=
-buf.build/gen/go/webitel/webitel-go/protocolbuffers/go v1.36.1-20250609124843-105d56479f4e.1 h1:VlDovP75XByXoM5PxRVn2QXAq9CkIwnw3tKxIJtdM4w=
-buf.build/gen/go/webitel/webitel-go/protocolbuffers/go v1.36.1-20250609124843-105d56479f4e.1/go.mod h1:ASofof5P7/h/+3cLsJDuz3DeBtES4cvCAirsr7bZs0M=
+buf.build/gen/go/webitel/webitel-go/protocolbuffers/go v1.36.10-20251020082842-dd1e0cbd8b5a.1 h1:ihaolGdN0rIHXqkuhDhOdmneuiRTpYiITA2jYak7NR4=
+buf.build/gen/go/webitel/webitel-go/protocolbuffers/go v1.36.10-20251020082842-dd1e0cbd8b5a.1/go.mod h1:asUIXIFK9bU3vxG0doZIj6wpG5PNIikay41YVYh2P5Q=
 filippo.io/edwards25519 v1.1.0 h1:FNf4tywRC1HmFuKW5xopWpigGjJKiJSV0Cqo0cJWDaA=
 filippo.io/edwards25519 v1.1.0/go.mod h1:BxyFTGdWcka3PhytdK4V28tE5sGfRvvvRV7EaN4VDT4=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
@@ -480,8 +480,8 @@ google.golang.org/genproto/googleapis/rpc v0.0.0-20250603155806-513f23925822 h1:
 google.golang.org/genproto/googleapis/rpc v0.0.0-20250603155806-513f23925822/go.mod h1:qQ0YXyHHx3XkvlzUtpXDkS29lDSafHMZBAZDc03LQ3A=
 google.golang.org/grpc v1.72.2 h1:TdbGzwb82ty4OusHWepvFWGLgIbNo1/SUynEN0ssqv8=
 google.golang.org/grpc v1.72.2/go.mod h1:wH5Aktxcg25y1I3w7H69nHfXdOG3UiadoBtjh3izSDM=
-google.golang.org/protobuf v1.36.6 h1:z1NpPI8ku2WgiWnf+t9wTPsn6eP1L7ksHUlkfLvd9xY=
-google.golang.org/protobuf v1.36.6/go.mod h1:jduwjTPXsFjZGTmRluh+L6NjiWu7pchiJ2/5YcXBHnY=
+google.golang.org/protobuf v1.36.10 h1:AYd7cD/uASjIL6Q9LiTjz8JLcrh/88q5UObnmY3aOOE=
+google.golang.org/protobuf v1.36.10/go.mod h1:HTf+CrKn2C3g5S8VImy6tdcUvCska2kB7j23XfzDpco=
 gopkg.in/alecthomas/kingpin.v2 v2.2.6/go.mod h1:FMv+mEhP44yOT+4EoQTLFTRgOQ1FBLkstjWtayDeSgw=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=

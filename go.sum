@@ -1,5 +1,5 @@
-buf.build/gen/go/webitel/webitel-go/grpc/go v1.5.1-20250609124843-105d56479f4e.2 h1:UakzlcgjYfzehUGqjB4FDdctxzRXQLlWiLdP4F0beWM=
-buf.build/gen/go/webitel/webitel-go/grpc/go v1.5.1-20250609124843-105d56479f4e.2/go.mod h1:J1r49v7CokIClDqrBe+HVMNAzu3uBw4BaLlVhlTqKNw=
+buf.build/gen/go/webitel/webitel-go/grpc/go v1.5.1-20251020082842-dd1e0cbd8b5a.2 h1:j3DN8WMMsYxCJPMc4pw6EixEGaQCshY8IFIcVIZQ8N4=
+buf.build/gen/go/webitel/webitel-go/grpc/go v1.5.1-20251020082842-dd1e0cbd8b5a.2/go.mod h1:DmTYXXltvrrjXOM2gbJNwbPg00vn5cUTWDNHdlLWBxQ=
 buf.build/gen/go/webitel/webitel-go/protocolbuffers/go v1.36.10-20251020082842-dd1e0cbd8b5a.1 h1:ihaolGdN0rIHXqkuhDhOdmneuiRTpYiITA2jYak7NR4=
 buf.build/gen/go/webitel/webitel-go/protocolbuffers/go v1.36.10-20251020082842-dd1e0cbd8b5a.1/go.mod h1:asUIXIFK9bU3vxG0doZIj6wpG5PNIikay41YVYh2P5Q=
 filippo.io/edwards25519 v1.1.0 h1:FNf4tywRC1HmFuKW5xopWpigGjJKiJSV0Cqo0cJWDaA=

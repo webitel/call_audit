@@ -67,7 +67,7 @@ require (
 )
 
 require (
-	buf.build/gen/go/webitel/webitel-go/grpc/go v1.5.1-20250609124843-105d56479f4e.2
+	buf.build/gen/go/webitel/webitel-go/grpc/go v1.5.1-20251020082842-dd1e0cbd8b5a.2
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/google/uuid v1.6.0 // indirect

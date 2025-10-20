@@ -11,7 +11,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/webitel/storage v0.0.0-20250721055202-b28f9f19ed2a
 	go.opentelemetry.io/otel/sdk v1.36.0
-	golang.org/x/sync v0.16.0
+	golang.org/x/sync v0.17.0
 	google.golang.org/grpc v1.72.2
 	google.golang.org/protobuf v1.36.10
 )

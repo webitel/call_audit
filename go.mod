@@ -1,6 +1,6 @@
 module github.com/webitel/call_audit
 
-go 1.25.0
+go 1.25.3
 
 require (
 	buf.build/gen/go/webitel/webitel-go/protocolbuffers/go v1.36.10-20251020082842-dd1e0cbd8b5a.1
@@ -71,7 +71,7 @@ require (
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/hashicorp/consul/api v1.32.4
+	github.com/hashicorp/consul/api v1.33.0
 	github.com/jackc/pgconn v1.14.3
 	github.com/mbobakov/grpc-consul-resolver v1.5.3
 	github.com/nicksnyder/go-i18n v1.10.3

@@ -18,6 +18,7 @@ require (
 
 require (
 	github.com/armon/go-metrics v0.4.1 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/fatih/color v1.16.0 // indirect
 	github.com/go-playground/form v3.1.4+incompatible // indirect
 	github.com/go-viper/mapstructure/v2 v2.4.0 // indirect
@@ -50,9 +51,9 @@ require (
 	github.com/tidwall/sjson v1.2.5 // indirect
 	github.com/webitel/engine/pkg/werror v0.0.0-20250508121332-6ae1563235d8 // indirect
 	github.com/webitel/wlog v0.0.0-20250325101442-de4f125c1ec7 // indirect
-	go.opentelemetry.io/auto/sdk v1.1.0 // indirect
+	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/bridges/otelzap v0.11.0 // indirect
-	go.opentelemetry.io/otel v1.36.0 // indirect
+	go.opentelemetry.io/otel v1.42.0 // indirect
 	go.opentelemetry.io/otel/log v0.12.2 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
@@ -76,7 +77,7 @@ require (
 	github.com/mbobakov/grpc-consul-resolver v1.5.3
 	github.com/nicksnyder/go-i18n v1.10.3
 	github.com/openai/openai-go v1.11.1
-	go.opentelemetry.io/otel/metric v1.36.0 // indirect
-	go.opentelemetry.io/otel/trace v1.36.0
+	go.opentelemetry.io/otel/metric v1.42.0 // indirect
+	go.opentelemetry.io/otel/trace v1.42.0
 	golang.org/x/sys v0.35.0 // indirect; indirectf
 )

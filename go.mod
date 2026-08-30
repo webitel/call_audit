@@ -1,6 +1,6 @@
 module github.com/webitel/call_audit
 
-go 1.25.0
+go 1.25.9
 
 require (
 	buf.build/gen/go/webitel/webitel-go/protocolbuffers/go v1.36.10-20251020082842-dd1e0cbd8b5a.1
@@ -11,7 +11,7 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/webitel/storage v0.0.0-20250721055202-b28f9f19ed2a
 	go.opentelemetry.io/otel/sdk v1.36.0
-	golang.org/x/sync v0.17.0
+	golang.org/x/sync v0.19.0
 	google.golang.org/grpc v1.72.2
 	google.golang.org/protobuf v1.36.10
 )
@@ -56,10 +56,10 @@ require (
 	go.opentelemetry.io/otel/log v0.12.2 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
-	golang.org/x/crypto v0.41.0 // indirect
-	golang.org/x/exp v0.0.0-20250808145144-a408d31f581a // indirect
-	golang.org/x/net v0.43.0 // indirect
-	golang.org/x/text v0.28.0 // indirect
+	golang.org/x/crypto v0.48.0 // indirect
+	golang.org/x/exp v0.0.0-20260218203240-3dfff04db8fa // indirect
+	golang.org/x/net v0.51.0 // indirect
+	golang.org/x/text v0.34.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20250519155744-55703ea1f237 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20250603155806-513f23925822 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
@@ -71,12 +71,12 @@ require (
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/google/uuid v1.6.0 // indirect
-	github.com/hashicorp/consul/api v1.32.4
+	github.com/hashicorp/consul/api v1.34.1
 	github.com/jackc/pgconn v1.14.3
 	github.com/mbobakov/grpc-consul-resolver v1.5.3
 	github.com/nicksnyder/go-i18n v1.10.3
 	github.com/openai/openai-go v1.11.1
 	go.opentelemetry.io/otel/metric v1.36.0 // indirect
 	go.opentelemetry.io/otel/trace v1.36.0
-	golang.org/x/sys v0.35.0 // indirect; indirectf
+	golang.org/x/sys v0.41.0 // indirect; indirectf
 )

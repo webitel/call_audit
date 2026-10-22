@@ -75,7 +75,7 @@ require (
 	github.com/jackc/pgconn v1.14.3
 	github.com/mbobakov/grpc-consul-resolver v1.5.3
 	github.com/nicksnyder/go-i18n v1.10.3
-	github.com/openai/openai-go v1.11.1
+	github.com/openai/openai-go v1.12.0
 	go.opentelemetry.io/otel/metric v1.36.0 // indirect
 	go.opentelemetry.io/otel/trace v1.36.0
 	golang.org/x/sys v0.35.0 // indirect; indirectf
